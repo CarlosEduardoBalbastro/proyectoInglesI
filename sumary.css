@@ -1,0 +1,136 @@
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 18px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px;
+    padding: 0px 10px;
+}
+
+.main h2 {
+    text-align: end;
+    padding: 1rem;
+}
+
+.main h3 {
+    text-align: start;
+    padding: 1rem;
+}
+
+.main p {
+    text-align: justify;
+    padding: 1rem;
+}
+
+main ul {
+    padding: 1rem;
+}
+
+main ul li {
+    padding: 0.5rem;
+    list-style-type: disc;
+}
+
+.color1 {
+    color: #12b630;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+
+.color2 {
+    color: #ccee06;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+
+.color3 {
+    color: #c20bf0;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+
+.plus {
+    color: rgb(3, 185, 216);
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.center_object {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.center_object p {
+    margin:2rem;
+   text-align: center;
+}
+
+.examples {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.examples h3 {
+
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.examples ol li {
+    padding: 0.5rem;
+    list-style-type: decimal;
+}
+
+
+.container {
+   margin-left: 15%; /* Same as the width of the sidenav */
+    font-size: 1rem;
+    
+}
+
+.container p {
+    text-align: justify;
+    padding: 1rem;
+}
+
+
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
